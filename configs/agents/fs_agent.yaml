@@ -2,14 +2,18 @@ default:
   module: "src.client.agents.FastChatAgent"
   parameters:
     name: "FastChat"
-    controller_address: "http://localhost:55555"
+    controller_address: "http://localhost:21001"
     max_new_tokens: 512
     temperature: 0
 
-Llama-2-7b:
+llama-2-70b:
   parameters:
-    model_name: "Llama-2-7b-hf"
-    
+    model_name: "Llama-2-70b-v0"
+
+llama-2-7b:
+  parameters:
+    model_name: "Llama-2-7b-chat-hf"
+
 vicuna-33b:
   parameters:
     model_name: "vicuna-33b-v1.3"
