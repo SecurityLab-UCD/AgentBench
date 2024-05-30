@@ -58,7 +58,7 @@
             }
         },
         "evaluation": {
-            "check": "grep -q \"hahaha\" /testfile.tx"
+            "check": "grep -q \"hahaha\" /testfile.txt"
         },
         "labels": ["permission", "user"]
     },
